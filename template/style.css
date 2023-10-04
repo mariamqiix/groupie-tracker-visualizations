@@ -37,11 +37,10 @@ body{margin:0;padding:0;border:none; background-color: #20212b;  height: 100%; w
 
 
 /* cintenet of pages */
-#content{width: 100%; font: left; clear: left; display:flex; flex-wrap: wrap; justify-content: flex-start;
+#content{width: 100%; float: left; clear: both; display:flex; flex-wrap: wrap; justify-content: flex-start;
     justify-content: center; margin-bottom: 2; height: auto; color: #dfb6b2}
-
-#aboutus{ padding: 10%; width: 80%; font: left; clear: left; font-size: 24px; margin-bottom: 2; height: auto; color: #534145; height: 300px}
-
+#content p{padding: 5%; font-size: 24px; margin-bottom: 2%; color: #534145;}
+#content h1{color: #534145; padding-top: 5%;}
 
 
 /* start index Page content */
@@ -89,4 +88,4 @@ body{margin:0;padding:0;border:none; background-color: #20212b;  height: 100%; w
 
 
 /* footer */
-#footer{height: 7%;width: 100%;float: left; color:#534145; clear: both; padding-top: 2%}
+#footer{height: 7%;width: 100%;float: left;  clear: both; color:#534145; padding-top: 2%}
